@@ -1,0 +1,4 @@
+brave_history.csv
+brave_history_backup
+.venv/
+history.sqlite3
