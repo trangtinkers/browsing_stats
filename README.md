@@ -38,3 +38,10 @@ LIMIT 50;
 
 The query strips the scheme, cuts at the first `/` to isolate the host, and sums
 `visit_count` per domain. Adjust `LIMIT` for a longer list.
+
+This produces results such as:
+| domain        | visits |
+| ------------- | ------ |
+| youtube.com   | 842    |
+| github.com    | 517    |
+| wikipedia.org | 301    |
